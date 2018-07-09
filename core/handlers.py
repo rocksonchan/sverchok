@@ -146,14 +146,14 @@ def set_frame_change(mode):
     post = bpy.app.handlers.frame_change_post
     pre = bpy.app.handlers.frame_change_pre
 
-    scene = bpy.app.handlers.scene_update_post
+ #   scene = bpy.app.handlers.scene_update_post
     # remove all
     if sv_update_handler in post:
         post.remove(sv_update_handler)
     if sv_update_handler in pre:
         pre.remove(sv_update_handler)
-    if sv_scene_handler in scene:
-        scene.remove(sv_scene_handler)
+#    if sv_scene_handler in scene:
+ #       scene.remove(sv_scene_handler)
 
     # apply the right one
     if mode == "POST":
