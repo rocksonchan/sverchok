@@ -174,7 +174,6 @@
     ---
     SvRndNumGen
     RandomNode
-    SvEasingNode
     SvMixNumbersNode
 
 ## Vector
@@ -220,11 +219,8 @@
     SvNeuroElman1LNode
 
 ## Viz
-    ViewerNode2
     SvBmeshViewerNodeMK2
-    IndexViewerNode
     SvMetaballOutNode
-    SvTextureViewerNode
     Sv3DviewPropsNode
 
 ## Text
@@ -232,10 +228,7 @@
     SvTextInNodeMK2
     SvTextOutNodeMK2
     NoteNode
-    SvDataShapeNode
-    GTextNode
     SvDebugPrintNode
-    SvStethoscopeNodeMK2
 
 ## BPY Data
     SvGetPropNode
@@ -302,8 +295,6 @@
     SvMatrixMathNode
     ---
     SvSculptMaskNode
-    SvGreasePencilStrokes
-    SvTextureViewerNodeLite
     SvSelectMeshVerts
     SvSetCustomMeshNormals
     ---
