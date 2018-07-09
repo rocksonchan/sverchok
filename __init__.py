@@ -48,7 +48,7 @@ bl_info = {
         "Portnov, Elfnor, kalwalt, DolphinDream"
     ),
     "version": (0, 5, 9, 6),
-    "blender": (2, 7, 8),
+    "blender": (2, 80, 0),
     "location": "Nodes > CustomNodesTree > Add user nodes",
     "description": "Parametric node-based geometry programming",
     "warning": "",
