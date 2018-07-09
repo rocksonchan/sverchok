@@ -306,7 +306,6 @@
     SvPolylineViewerNodeMK1
     SvTypeViewerNode
     SvSkinViewerNodeMK1b
-    SvMatrixViewer
     ---
     SvBManalyzinNode
     SvBMObjinputNode
