@@ -8,12 +8,6 @@ from sverchok import data_structure
 from sverchok.core import upgrade_nodes, upgrade_group
 
 from sverchok.ui import (
-    viewer_draw,
-    viewer_draw_mk2,
-    index_viewer_draw,
-    nodeview_bgl_viewer_draw,
-    nodeview_bgl_viewer_draw_mk2,
-    bgl_callback_3dview,
     color_def
 )
 
@@ -83,12 +77,6 @@ def sv_clean(scene):
     """
     Cleanup callbacks, clean dicts.
     """
-    viewer_draw.callback_disable_all()
-    viewer_draw_mk2.callback_disable_all()
-    index_viewer_draw.callback_disable_all()
-    nodeview_bgl_viewer_draw.callback_disable_all()
-    nodeview_bgl_viewer_draw_mk2.callback_disable_all()
-    bgl_callback_3dview.callback_disable_all()
 
     data_structure.sv_Vars = {}
     data_structure.temp_handle = {}
