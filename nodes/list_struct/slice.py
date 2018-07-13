@@ -68,6 +68,9 @@ class ListSliceNode(bpy.types.Node, SverchCustomTreeNode):
         start = self.inputs['Start'].sv_get()[0]
         stop = self.inputs['Stop'].sv_get()[0]
 
+        if not self.inputs['Data'].is_linked:
+            return
+
         if self.outputs['Slice'].is_linked:
             if self.level:
                 out = self.get(data, start, stop, self.level, self.slice)
