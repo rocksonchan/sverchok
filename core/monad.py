@@ -90,6 +90,8 @@ def monad_make_unique(node):
     # do not restore links this way. wipe this entry and restore at a later stage.
     layout_json['update_lists'] = []
 
+    # also wipe groups?
+
     # massage content of node_items, to correspond with the new desired name.
     node_ref = layout_json['nodes'][node.name]
     node_items = node_ref['params']
